@@ -30,6 +30,7 @@ INGREDIENTS
 
 
 Steps
+
 Step 1
 Sauté the onions, garlic and celery – finely chopped – in the lower pot with olive oil
 
