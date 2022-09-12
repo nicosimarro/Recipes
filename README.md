@@ -27,3 +27,29 @@ INGREDIENTS
 • 1 cinnamon stick
 • ground saffron
 • Olive oil and salt
+
+
+Steps
+Step 1
+Sauté the onions, garlic and celery – finely chopped – in the lower pot with olive oil
+
+Step 2
+Add the coriander and parsley -chopped-, cinnamon, ras el hanout, black pepper and a pinch of saffron, fry for 5 minutes
+
+Step 3
+Add the meat cut into pieces, brown it for 10 minutes. Cover with hot water and add the chickpeas -soaked for 12 hours-, cover with the hole pot and leave the content to cook over low heat
+
+Step 4
+Wash the couscous, let it drain, season with a splash of oil, black pepper, ground cumin and salt. Put it in the strainer pot from the moment the steam begins to pass through the holes.
+
+step 5
+From time to time – every 15 minutes – transfer the couscous to a serving dish and stir gently with a fork, moistening it with water and oil and returning it back to the strainer pot. Repeat the operation three times.
+
+step 6
+After 45 minutes of cooking, add the cabbage cut into large pieces and cook for 30 minutes. Add a chopped onion and chilli peppers – optional – and leave to cook for 20 more minutes.
+
+Step 7
+Add the aubergine, the peppers, the potatoes, the tomatoes and the turnips, all chopped. Check the salt and pepper and cook another 20 minutes.
+
+step 8
+Spread the couscous on a tray, cover with the meat, chickpeas and vegetables. Pour the broth into a tureen and serve.
