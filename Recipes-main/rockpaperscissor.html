@@ -1,0 +1,64 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class ="actions">
+            <button onclick = "play ('rock')">
+                rock
+            </button>
+            <button onclick = "play ('paper')">
+                paper
+            </button>
+            <button onclick = "play ('scissor')">
+                scissor
+            </button>
+        </div> 
+        <script>
+            function play (action){
+                let messageFinal;
+                const actions = ["rock","paper","scissor"];
+                const systemaction =actions[Math.floor(Math.random()*3)];
+                switch(action){
+                    case "rock":
+                        if (action == systemaction){
+                            messageFinal = "tie";
+
+                        }
+                        else if(systemaction == "paper"){
+                            messageFinal = "you lose";
+                        }
+                        else{
+                            messageFinal = "you win";
+                        }
+                        break;
+                    case "paper":
+                    if (action == systemaction){
+                            messageFinal = "tie";
+
+                        }
+                        else if(systemaction == "rock"){
+                            messageFinal = "you win";
+                        }
+                        else{
+                            messageFinal = "you lose";
+                        }
+                        break;
+                    case "scissor":
+                    if (action == systemaction){
+                            messageFinal = "tie";
+
+                        }
+                        else if(systemaction == "paper"){
+                            messageFinal = "you win";
+                        }
+                        else{
+                            messageFinal = "you lose";
+                        }
+                        break;
+                }
+                alert ("you have chosen "+action+" and the system has chosen "+ systemaction +" , so "+ messageFinal);
+            }
+        </script>  
+    </body>
+</html>
