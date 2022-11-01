@@ -1,0 +1,112 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class ="actions">
+            <button onclick = "chooseaction ('rock')">
+                choose rock
+            </button>
+            <button onclick = "chooseaction ('paper')">
+                choose paper
+            </button>
+            <button onclick = "chooseaction ('scissor')">
+                choose scissor
+            </button>
+            <p>
+                you have chosen :<span id="chosen"></span>
+            </p>
+            <button onclick = "play ()">
+                play
+            </button>
+            <p id="message">
+                
+            </p>
+            <ul>
+                <li>
+                    win:<span id="win">0</span>
+                </li>
+                <li>
+                    lose:<span id ="lose">0</span>
+                </li>
+                <li>
+                    tie:<span id = "tie">0</span>
+                </li>
+            </ul>
+        </div> 
+        <script>
+            let win = 0;
+            let lose = 0;
+            let tie = 0;
+
+            function chooseaction(action){
+                document.getElementById("chosen").textContent=action;
+                
+            }
+            function play (){
+                const action = document.getElementById("chosen").textContent;
+                if (action != ""){
+                    let messageFinal;
+                const actions = ["rock","paper","scissor"];
+                const systemaction =actions[Math.floor(Math.random()*3)];
+                switch(action){
+                    case "rock":
+                        if (action == systemaction){
+                            messageFinal = "tie";
+                            tie++;
+
+                        }
+                        else if(systemaction == "paper"){
+                            messageFinal = "you lose";
+                            lose++;
+                        }
+                        else{
+                            messageFinal = "you win";
+                            win++;
+                        }
+                        break;
+                    case "paper":
+                    if (action == systemaction){
+                            messageFinal = "tie";
+                            tie++;
+
+                        }
+                        else if(systemaction == "rock"){
+                            messageFinal = "you win";
+                            win++;
+                        }
+                        else{
+                            messageFinal = "you lose";
+                            lose++;
+                        }
+                        break;
+                    case "scissor":
+                    if (action == systemaction){
+                            messageFinal = "tie";
+                            tie++;
+
+                        }
+                        else if(systemaction == "paper"){
+                            messageFinal = "you win";
+                            win++;
+                        }
+                        else{
+                            messageFinal = "you lose";
+                            lose++;
+                        }
+                        break;
+                }
+
+                document.getElementById("message").textContent = "you have chosen "+action+" and the system has chosen "+ systemaction +" , so "+ messageFinal;
+                document.getElementById("win").textContent =win;
+                document.getElementById("lose").textContent =lose;
+                document.getElementById("tie").textContent =tie;
+                }
+                else{
+                    document.getElementById("message").textContent = "you have to choose before playing!!";
+                }
+                
+            }
+        </script>  
+    </body>
+</html>
